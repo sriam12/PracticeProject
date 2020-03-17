@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="497170" started-at="2020-03-11T14:23:00Z" finished-at="2020-03-11T14:31:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="497170" started-at="2020-03-11T14:23:00Z" finished-at="2020-03-11T14:31:17Z">
+      <class name="Academy.Homepage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Homepage@3c130745]" name="initialize" is-config="true" duration-ms="316390" started-at="2020-03-11T14:23:00Z" finished-at="2020-03-11T14:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basepageNavigate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@3c130745]" name="basepageNavigate" duration-ms="57404" started-at="2020-03-11T14:28:17Z" data-provider="getData" finished-at="2020-03-11T14:29:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gatti]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[text1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.Homepage@3c130745]" name="tearDown" is-config="true" duration-ms="2696" started-at="2020-03-11T14:29:14Z" finished-at="2020-03-11T14:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Homepage@3c130745]" name="initialize" is-config="true" duration-ms="64783" started-at="2020-03-11T14:29:17Z" finished-at="2020-03-11T14:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basepageNavigate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@3c130745]" name="basepageNavigate" duration-ms="54273" started-at="2020-03-11T14:30:22Z" data-provider="getData" finished-at="2020-03-11T14:31:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual1@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gatti1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[text2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.Homepage@3c130745]" name="tearDown" is-config="true" duration-ms="1368" started-at="2020-03-11T14:31:16Z" finished-at="2020-03-11T14:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.Homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
